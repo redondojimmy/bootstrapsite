@@ -1,0 +1,29 @@
+
+.navbar-inverse {
+      border-color: lightblue;
+      background-color: lightblue;
+    }
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  border-color: lightblue;
+  background-color: lightblue;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    background-color: rgb(173, 216, 230);
+    margin-top: 150px;
+}
+.carousel {
+  height: 600px;
+  background-color: lightblue;
+}
+div.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: lightblue;
+    border-color: lightblue;
+  }
