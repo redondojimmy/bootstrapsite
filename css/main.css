@@ -61,7 +61,7 @@ nav li {
   height: 600px;
   background-color: lightblue;
 }
-div.container-fluid {
+div.container-fluid.car {
   padding-left: 0 !important;
   padding-right: 0 !important;
     margin-right: 0;
@@ -80,7 +80,7 @@ div.container-fluid {
 	}
 	#pictures h1{
 		font-size: 25px;
-		font-family: "Times New Roman", Georgia, Serif;
+		font-family: 'Roboto Slab', serif;
 		text-shadow: 1px 1px lightgrey;
 	}
 	#pictures p {
@@ -147,7 +147,7 @@ div.row.container2 {
     text-align: center;
     font-size: 18px;
 		color: white;
-		font-family: "Times New Roman", Georgia, Serif;
+		font-family: 'Roboto Slab', serif;
 		font-weight: bolder;
 }
 .button {
@@ -183,7 +183,7 @@ div.container-fluid.container3 {
 	text-align: left;
 }
 div.col-sm-5.txt {
-	height: 270px;
+	height: 315px;
 }
 div.col-sm-7 {
 	background-color: lightgrey;
@@ -191,19 +191,23 @@ div.col-sm-7 {
 }
 div.col-sm-7 h1 {
 	font-size: 40px;
-font-family: "Times New Roman", Georgia, Serif;
+font-family: 'Roboto Slab', serif;
 text-shadow: 1px 1px lightgrey;
 margin-top: 20px;
-
 }
 div.col-sm-7 p {
 	font-size: 25px;
-font-family: "Times New Roman", Georgia, Serif;
+font-family: 'Roboto Slab', serif;
 }
 div.button2 {
 	float: left;
 }
-
+div.col-sm-8.brk {
+	background-color: grey;
+}
+div.col-sm-2.brk {
+	background-color: lightgrey;
+}
 .ctr4 {
 	float: right;
 	text-align: right;
@@ -222,5 +226,157 @@ div.button3 {
 }
 div.row.container4 {
 	background-color: lightgrey;
+}
+.page5 h1 {
+	font-size: 50px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white;
+	background-color: lightblue;
+	margin-top: -30px;
+	font-weight: bolder;
+}
+.page5 p {
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white;
+	background-color: lightblue;
+	margin-top: -15px;
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+.page6 {
+	text-align: center;
+}
+div.col-sm-4.boxes {
+	background-color: white;
+	height:auto;
+	width: 275px;
+	text-align: center;
+	margin: 25px 35px 25px 35px;
+	border-radius: 10px;
+}
+div.row.boxes img.whale {
+	height: 225px;
+	width: 275px;
+	margin-left: -15px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.boxes h1 {
+	background-color: white;
+	height: 100px;
+	margin-top: -30px;
+	padding-top: 55px;
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	color: black;
+	text-align: center;
+}
+.boxes h2 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: black;
+	background-color: white;
+	margin-top: -20px;
+}
+.boxes p {
+	font-family: 'Roboto Slab', serif;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+	background-color: white;
+	margin: 20px 0 -10px 0;
+}
 
+div.row.boxes {
+	background-color: lightblue;
+	margin-left: 152px;
+}
+div.icons {
+	display: inline-block;
+}
+img.icons {
+	height:30px;
+	width: 30px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+div.container-fluid.page6 {
+	background-color: lightblue;
+	margin-top: -15px;
+	margin-bottom: 40px;
+}
+section.footer {
+	background-color: #333333;
+	margin-bottom: 25px;
+}
+.footer h1 {
+	font-size: 50px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white;
+	background-color: #333333;
+	margin-top: -40px;
+	padding-top: 30px;
+	font-weight: bolder;
+}
+.footer p {
+	font-size: 17px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: white;
+	background-color: #333333;
+	margin-top: -15px;
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+#usr, #pwd {
+	width: 800px;
+	margin-left: 180px;
+}
+#msg {
+	height: 200px;
+	width: 800px;
+margin-left: 180px;
+}
+div.form-group {
+	margin-bottom: 15px;
+}
+div.container.footer2 {
+	margin-bottom: 30px;
+}
+div.col-sm-8.ftr {
+	background-color: lightgrey;
+}
+div.col-sm-2.ftr {
+	background-color: #333333;
+}
+	div.icons2 {
+		display: inline-block;
+		width: auto;
+		text-align: center;
+		margin-left: 465px;
+	}
+	img.icons2 {
+		height:30px;
+		width: 30px;
+		text-align: center;
+		margin: 35px;
+	}
+	div.copyright {
+		color: lightgrey;
+		width: auto;
+		text-align: center;
+	}
+div.copyright span {
+	color: lightyellow;
+}
+div.footer2 {
+	margin-bottom: 30px;
 }
